@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modo Extrañarte 💖</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Overlay oscuro pantalla completa -->
+    <div class="screen-overlay"></div>
+
+    <!-- Contenedor de partículas (emojis) -->
+    <div class="particles-container"></div>
+
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Modo Extrañarte 💗</h1>
+
+            <button id="activarBtn">Activar Nuestro Amor 💌</button>
+
+            <!-- Frase principal (aparece después del click) -->
+            <p id="typewriter-main" class="typewriter"></p>
+        </div>
+    </section>
+
+    <!-- GALERÍA -->
+    <section id="galeria" class="hidden">
+        <div class="slider-container">
+            <button class="nav prev">&#10094;</button>
+
+            <div class="cards">
+
+                <div class="card active" data-text="Te elijo hoy, mañana y siempre mi vida ❤️">
+                    <img src="assets/img/img1.jpg">
+                    <p class="overlay-text typewriter-img"></p>
+                </div>
+
+                <div class="card" data-text="La distancia no debilita lo que es verdadero ❤️">
+                    <img src="assets/img/img2.jpg">
+                    <p class="below-text typewriter-img"></p>
+                </div>
+
+                <div class="card" data-text="Contigo aprendí que amar también es esperar...">
+                    <img src="assets/img/img3.webp">
+                    <p class="overlay-text typewriter-img"></p>
+                </div>
+
+            </div>
+
+            <button class="nav next">&#10095;</button>
+        </div>
+    </section>
+
+    <!-- AUDIO -->
+    <audio id="musica" loop>
+        <source src="assets/audio/comenzar_de_cero.mpeg" type="audio/mpeg">
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
